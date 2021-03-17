@@ -9,9 +9,9 @@ const scriptName = '什么值得买';
 const smzdmAccount = '' // 什么值得买账号
 const smzdmPassword = '' // 什么值得买密码
 let clickGoBuyMaxTimes = 12; // 好价点击去购买的次数
-let clickLikeProductMaxTimes = 7; // 好价点值次数
+let clickLikeProductMaxTimes = 8; // 好价点值次数
 let clickLikeArticleMaxTimes = 7; // 好文点赞次数
-let clickFavArticleMaxTimes = 7; // 好文收藏次数
+let clickFavArticleMaxTimes = 8; // 好文收藏次数
 
 let magicJS = MagicJS(scriptName, "INFO");
 magicJS.unifiedPushUrl = magicJS.read('smzdm_unified_push_url') || magicJS.read('magicjs_unified_push_url');
